@@ -74,7 +74,7 @@ Before training, you need to extract **frames** and **faces** from videos.
 - Extract frames using:
 
 ```bash
-python extract_frames.py --input data/videos/video.mp4 --output data/extracted_frames/
+python extract_frames.py --input data/videos/ --output data/extracted_frames/
 ```
 
 - Extracted frames will be stored in `data/extracted_frames/`.
@@ -116,7 +116,7 @@ data/train_faces/
 Run the training script:
 
 ```bash
-python train_swim.py
+python train_swin.py
 ```
 
 This will train the Swin Transformer and save the model weights to:
